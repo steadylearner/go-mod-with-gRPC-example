@@ -1,4 +1,4 @@
-module steadylearner.com/grpc
+module steady.com/grpc
 
 go 1.14
 

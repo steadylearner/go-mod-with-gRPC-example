@@ -6,7 +6,7 @@ import (
 	"net"
 
         "google.golang.org/grpc"
-	pb "steadylearner.com/grpc/helloworld"
+	pb "steadylearner.com/grpc/api/helloworld"
 )
 
 const (
