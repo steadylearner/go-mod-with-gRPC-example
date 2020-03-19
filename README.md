@@ -11,6 +11,8 @@ In server/main.rs, comment this.
 
 I should inspect what happend to "UnimplementedGreeterServer" by inspecting **pb**.
 
+[Edit] When you inspect helloworld/helloworld.pb.go, you can't find it either.
+
 ## How to reproduce working code example.
 
 ```console
