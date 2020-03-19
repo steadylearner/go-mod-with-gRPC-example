@@ -30,3 +30,7 @@ protoc -I helloworld/ helloworld/helloworld.proto --go_out=plugins=grpc:hellowor
 Everything is ready. First, run gRPC server with **$go run main.rs** in current folder. Then, **$cd client && go run main.rs** in another kernel. 
 
 You will see **Received: world** at the server and **Greeting: Hello world** from the client.
+
+## Conclusion
+
+[I should have read this blog first.](https://towardsdatascience.com/grpc-in-golang-bb40396eb8b1)
