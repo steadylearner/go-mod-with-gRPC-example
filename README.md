@@ -33,4 +33,4 @@ Everything is ready.
 
 First, run gRPC server with **$go run main.rs** in current folder. Then, **$cd client && go run main.rs** in another kernel. 
 
-You will see **Received: world** at the client part.
+You will see **Received: world** at the server and **Greeting: Hello world** from the client.
