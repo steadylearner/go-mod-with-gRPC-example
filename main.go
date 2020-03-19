@@ -6,7 +6,7 @@ import (
 	"net"
 
         "google.golang.org/grpc"
-	pb "steadylearner.com/grpc/api"
+	pb "steadylearner.com/grpc/helloworld"
 )
 
 const (
@@ -15,7 +15,11 @@ const (
 
 // server is used to implement pb.pb.GreeterServer.
 type server struct {
-	pb.UnimplementedGreeterServer
+        // HelloReply, RegisterGreeterServer etc exist.
+        // But, there is no pb.UnimplementedGreeterServer from the official example.
+        // So, comment or remove it.
+
+	// pb.UnimplementedGreeterServer
 }
 
 // SayHello implements pb.pb.GreeterServer
