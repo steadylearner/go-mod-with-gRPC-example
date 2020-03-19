@@ -9,9 +9,7 @@ In server/main.rs, comment this.
 // pb.UnimplementedGreeterServer
 ```
 
-I should inspect what happend to "UnimplementedGreeterServer" by inspecting **pb** in helloworld/helloworld.pb.go.
-
-You can see that you can not find it.
+I had to inspect what happend to "UnimplementedGreeterServer" by reading **pb** in helloworld/helloworld.pb.go. You can see that you can not find it there.
 
 ## How to reproduce working code example.
 
